@@ -24,6 +24,7 @@ Copyright (c) 2021 TinyMLx. All rights reserved.
 + [TannerGilbert](https://github.com/TannerGilbert)
 + [ycaglar](https://github.com/ycaglar)
 + edX/Discourse users:
+  + ajanzen
   + CIPop
   + CuthbertCalculusII
   + dizgotti
