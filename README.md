@@ -38,4 +38,5 @@ Copyright (c) 2021 TinyMLx. All rights reserved.
   + rodica1b
   + shreyaelectronic17
   + stephenbaileymagic
+  + Thaddeus_Lee
   + TSenti
