@@ -12,6 +12,7 @@ Copyright (c) 2021 TinyMLx. All rights reserved.
 + [Sharad Chitlangia](https://github.com/Sharad24)
 + [Radhika Ghosal](https://github.com/RadhikaG)
 + [Srivatsan Krishnan](https://github.com/srivatsankrishnan)
++ [Maximilian Lam](https://github.com/agnusmaximus)
 + [Laurence Maroney](https://github.com/lmoroney)
 + [Brian Plancher](https://github.com/plancherb1)
 + [Pete Warden](https://github.com/petewarden)
