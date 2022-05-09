@@ -41,3 +41,4 @@ Copyright (c) 2021 TinyMLx. All rights reserved.
   + stephenbaileymagic
   + Thaddeus_Lee
   + TSenti
+  + Allan Estrella
