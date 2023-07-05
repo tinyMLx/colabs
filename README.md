@@ -2,7 +2,7 @@
 
 ### License
 
-Copyright (c) 2021 TinyMLx. All rights reserved.
+Copyright (c) 2023 TinyMLx. All rights reserved.
 
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -18,6 +18,7 @@ Copyright (c) 2021 TinyMLx. All rights reserved.
 + [Pete Warden](https://github.com/petewarden)
 
 ### Improvements made by:
++ [Matthew DosSantos DiSorbo](https://www.linkedin.com/in/dossantos-disorbo)
 + [Blend3rman](https://github.com/Blend3rman)
 + [goodboychan](https://github.com/goodboychan)
 + [himalayanZephyr](https://github.com/himalayanZephyr)
