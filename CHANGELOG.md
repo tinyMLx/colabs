@@ -1,4 +1,4 @@
-# TinyMLx edX (developing)
+# TinyMLx edX 0.1.1 (2023-07-21)
 
 ## Changes
 - [2-3-3] 
