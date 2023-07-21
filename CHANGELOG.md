@@ -1,3 +1,9 @@
+# TinyMLx edX (developing)
+
+## Changes
+- [3-3-7] Fix a typo in metadata. 
+
+
 # TinyMLx edX 0.1.1 (2023-07-21)
 
 ## Changes
