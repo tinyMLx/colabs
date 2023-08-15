@@ -1,3 +1,12 @@
+# TinyMLx edX (developing)
+
+## Changes
+- [3-8-16] `lr` --> `learning_rate`
+- [3-7-11] Fixed data link.
+- [3-5-18] Fixed tf1 -> tf2 compatibility issues (see [#16](https://github.com/tinyMLx/colabs/pull/16))
+- [3-3-7] Fixed a typo in metadata. 
+
+
 # TinyMLx edX 0.1.1 (2023-07-21)
 
 ## Changes
