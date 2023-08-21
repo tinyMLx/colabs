@@ -1,6 +1,7 @@
 # TinyMLx edX (developing)
 
 ## Changes
+- [4-4-8] %tensorflow_version 1.x --> %tensorflow_version 2.x
 
 
 
