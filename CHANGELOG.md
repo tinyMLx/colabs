@@ -2,6 +2,7 @@
 
 ## Changes
 - [4-4-8] %tensorflow_version 1.x --> %tensorflow_version 2.x
+- [4-4-8] flatbuffers==1.12 --> flatbuffers==23.5.6
 
 
 
