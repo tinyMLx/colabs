@@ -1,6 +1,16 @@
 # TinyMLx edX (developing)
 
 ## Changes
+- [3-10-7] Static image links are replaced.
+- [4-6-8] import tensorflow as tf --> import tensorflow.compat.v1 as tf and deactivate re-installing tensorflow
+- [4-4-8] %tensorflow_version 1.x --> %tensorflow_version 2.x
+- [4-4-8] flatbuffers==1.12 --> flatbuffers==23.5.6
+
+
+
+# TinyMLx edX 0.1.2 (2023-08-15)
+
+## Changes
 - [3-8-16] `lr` --> `learning_rate`
 - [3-7-11] Fixed data link.
 - [3-5-18] Fixed tf1 -> tf2 compatibility issues (see [#16](https://github.com/tinyMLx/colabs/pull/16))
