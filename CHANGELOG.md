@@ -1,4 +1,4 @@
-# TinyMLx edX (developing)
+# TinyMLx edX 0.1.3 (2023-08-25)
 
 ## Changes
 - [3-10-7] Static image links are replaced.
