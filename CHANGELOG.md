@@ -1,6 +1,7 @@
 # TinyMLx edX (developing)
 
 ## Changes
+- [3-10-7] Static image links are replaced.
 - [4-6-8] import tensorflow as tf --> import tensorflow.compat.v1 as tf and deactivate re-installing tensorflow
 - [4-4-8] %tensorflow_version 1.x --> %tensorflow_version 2.x
 - [4-4-8] flatbuffers==1.12 --> flatbuffers==23.5.6
