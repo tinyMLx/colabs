@@ -1,6 +1,9 @@
 # TinyMLx edX 0.1.3 (2023-08-25)
 
 ## Changes
+- [3-5-13] TF v2.4.1 --> TF v2.14.0
+
+## Changes
 - [3-10-7] Static image links are replaced.
 - [4-6-8] import tensorflow as tf --> import tensorflow.compat.v1 as tf and deactivate re-installing tensorflow
 - [4-4-8] %tensorflow_version 1.x --> %tensorflow_version 2.x
