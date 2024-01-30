@@ -1,4 +1,9 @@
-# TinyMLx edX 0.1.3 (2023-08-25)
+# TinyMLx edX (developing)
+
+## Changes
+- [4-4-8] Fixed download link for flatbuffers
+- [4-4-8] Fixed tflite Model import
+
 
 ## Changes
 - [3-5-13] TF v2.4.1 --> TF v2.14.0
