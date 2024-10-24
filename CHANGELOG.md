@@ -2,6 +2,7 @@
 
 ## Changes
 - [2-1-9], [2-2-5]  Tensorflow expects a numpy array as input for the model.predict() method.
+- [2-3-7] model.input --> model.inputs
 
 
 
