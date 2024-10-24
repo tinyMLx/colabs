@@ -1,4 +1,11 @@
-# TinyMLx edX (developing)
+# TinyMLx edX (development)
+
+## Changes
+- [2-1-9]  Tensorflow expects a numpy array as input for the model.predict() method.
+
+
+
+# TinyMLx edX (unreleased)
 
 ## Changes
 - [4-4-8] Fixed download link for flatbuffers
