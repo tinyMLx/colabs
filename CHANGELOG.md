@@ -1,7 +1,7 @@
 # TinyMLx edX (development)
 
 ## Changes
-- [2-1-9]  Tensorflow expects a numpy array as input for the model.predict() method.
+- [2-1-9], [2-2-5]  Tensorflow expects a numpy array as input for the model.predict() method.
 
 
 
