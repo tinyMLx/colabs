@@ -1,6 +1,8 @@
 # TinyMLx edX (development)
 
 ## Changes
+- [3-3-7] Install Tensorflow 2.10.0, tensorflow-hub 0.12.0, tensorflow-datasets 4.6.0
+
 - [3-3-4] Install Tensorflow 2.10.
 - [3-3-4] Tensorflow expects a numpy array as input for the model.predict() method.
 - [2-1-9], [2-2-5]  Tensorflow expects a numpy array as input for the model.predict() method.
