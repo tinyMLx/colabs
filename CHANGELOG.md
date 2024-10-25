@@ -1,6 +1,9 @@
 # TinyMLx edX (development)
 
 ## Changes
+- [3-4-3] Fixed the module import error for `Model.py`
+- [3-4-3] Fixed the path of the `schema_v3.fbs` file in the tensorflow/lite schema.
+- [3-4-3] Fixed the compiler flag to stop treating warnings as errors.
 - [3-3-12] Install Tensorflow-model-optimization 0.7.3
 - [3-3-7], [3-3-10], [3-3-12], [3-3-14] Install Tensorflow 2.10.0, tensorflow-hub 0.12.0, tensorflow-datasets 4.6.0
 - [3-3-4] Install Tensorflow 2.10.
