@@ -1,6 +1,8 @@
 # TinyMLx edX (development)
 
 ## Changes
+- [3-8-13], [3-8-16], [3-10-7] Install Tensorflow 2.10.0.
+- [3-5-18], [3-7-11]Install Tensorflow 2.10.0.
 - [3-4-3] Fixed the module import error for `Model.py`
 - [3-4-3] Fixed the path of the `schema_v3.fbs` file in the tensorflow/lite schema.
 - [3-4-3] Fixed the compiler flag to stop treating warnings as errors.
