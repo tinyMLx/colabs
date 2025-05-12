@@ -1,6 +1,7 @@
 # TinyMLx edX (development)
 
 ## Changes
+- [2-3-3], datasets.ascent() --> datasets.ascent().astype(np.int32)
 - [3-8-13], [3-8-16], [3-10-7] Install Tensorflow 2.10.0.
 - [3-5-18], [3-7-11]Install Tensorflow 2.10.0.
 - [3-4-3] Fixed the module import error for `Model.py`
