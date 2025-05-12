@@ -1,4 +1,10 @@
-# TinyMLx edX (development)
+# TinyMLx edX  (development)
+
+## Changes
+- [3-3-4] Install Tensorflow 2.14.0
+- [2-3-3], datasets.ascent() --> datasets.ascent().astype(np.int32)
+
+# TinyMLx edX  (2024-11-20)
 
 ## Changes
 - [2-3-3], datasets.ascent() --> datasets.ascent().astype(np.int32)
