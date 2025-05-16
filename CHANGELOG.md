@@ -1,7 +1,7 @@
 # TinyMLx edX  (development)
 
 ## Changes
-- [3-3-7], [3-3-10] Fixed version of numpy, tensorflow, and tensorflow-datasets, tensorflow-hub, and protobuf.
+- [3-3-7], [3-3-10], [3-3-12] Fixed version of numpy, tensorflow, and tensorflow-datasets, tensorflow-hub, and protobuf.
 - [3-3-4] Install Tensorflow 2.14.0
 - [2-3-3], datasets.ascent() --> datasets.ascent().astype(np.int32)
 
