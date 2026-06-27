@@ -1,4 +1,4 @@
-# TinyMLx edX (unreleased)
+# TinyMLx edX (2026-06-27)
 
 ## Changes
 - [3-3-7], [3-3-10], [3-3-14] Setup cell now upgrades protobuf to `>=6.31.1` when the runtime is older. These notebooks load data via `tensorflow_datasets`; Colab's `tensorflow_metadata` ships protobuf gencode 6.31.1 but the default runtime is 5.29.6, which breaks `import tensorflow_datasets` (`VersionError: runtime cannot be older than gencode`). The check runs the upgrade only when needed, then prompts a session restart. (Upgrading protobuf, not pinning down, is required because Colab's `tensorflow_metadata` cannot be satisfied by any protobuf < 6.31.1.) Only these three C2 notebooks actually use tfds.
