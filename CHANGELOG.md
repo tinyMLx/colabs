@@ -1,4 +1,21 @@
-# TinyMLx edX  (development)
+# TinyMLx edX (unreleased)
+
+## Changes
+- [4-2-12] Fixed OverflowError on `np.array(HEXADECIMAL_BYTES, dtype="i2")` (signed int16 can't hold values like `0x905B = 36955`; NumPy 2.x raises OverflowError where older NumPy silently wrapped). Replaced cell with `dtype=np.uint16`, explicit big-endian byte-swap, and full-range RGB565→RGB888 scaling (`* 255 // 31` / `* 255 // 63` instead of bit-shifts that only produced multiples of 8). Four students reported this issue in the course forum.
+- [3-3-4] Removed TF 2.14.0 version pinning (Colab is Py 3.12 + TF 2.20.0; TF 2.14 wheels do not exist for Py 3.12). Cell 0 now installs TF only if missing, also installs `tf_keras` and sets `TF_USE_LEGACY_KERAS=1` so the rest of the notebook uses the Keras 2 API the course code was written against.
+- [3-3-7] Same first-cell refactor as `3-3-4`, additionally ensuring `tensorflow_hub` and `tensorflow_datasets` are installed.
+- [3-3-10] Same first-cell refactor as `3-3-7` (cell 2; cells 0–1 are markdown).
+- [3-3-12] Same install-cell refactor as `3-3-7`, additionally installing `tensorflow_model_optimization` (TFMOT 0.7.3 pin removed; latest version picked up which is compatible with current TF + Keras 2 legacy compat).
+- [3-3-14] Same install-cell refactor as `3-3-7` (cell 2).
+- [3-4-3] Prepended `tf_keras` setup block to the imports cell (cell 3). Notebook has no separate version-checking cell.
+- [3-5-18] Same install-cell refactor as `3-3-7` (cell 4). TF v2.4.1 source download (cell 5) and `freeze.py` sed patches (cell 24) intentionally left untouched; the sed patches are version-specific to v2.4.1's source structure.
+- [3-8-13] Same install-cell refactor as `3-3-7` (cell 3).
+- [3-8-16] Same install-cell refactor as `3-3-7` (cell 3).
+- [3-10-7] **Full rewrite.** Original notebook depended on two removed/archived dependencies: `tf.estimator.DNNClassifier` (removed from TF 2.16+) and `witwidget` (the What-If Tool's widget, archived by Google in 2023). Replaced with a Keras Sequential DNN (same 128/64/32 architecture as the original) and Fairlearn (`MetricFrame`, `demographic_parity_difference`, `equalized_odds_difference`, `ThresholdOptimizer`) for the fairness analysis. The pedagogy is preserved: train on UCI Adult, slice metrics by Sex, compare Single Threshold vs. Demographic Parity vs. Equalized Odds, conclude Equal Opportunity is the most defensible strategy for this dataset. Learning-check questions and answers preserved verbatim. Setup cell pins `scipy`+`scikit-learn`+`fairlearn` together via `pip install --upgrade` to avoid the `_lazywhere` ImportError that occurs when fairlearn pulls in an sklearn incompatible with Colab's pre-installed scipy.
+- [3-7-11] `Adam(lr=...)` → `Adam(learning_rate=...)` (Keras 3 removed the `lr` alias). Same install-cell refactor as `3-3-7` (cell 2). Also: replaced `gdown --id <fileid>` with full-URL form (`gdown 6.x` removed the `--id` flag).
+
+
+# TinyMLx edX (2025-05-16)
 
 ## Changes
 - [3-7-11], [3-8-13], [3-8-16], [3-10-7] Fixed the tf version.

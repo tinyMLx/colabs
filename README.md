@@ -18,6 +18,7 @@ Copyright (c) 2023 TinyMLx. All rights reserved.
 + [Pete Warden](https://github.com/petewarden)
 
 ### Improvements made by:
++ [Naeem Khoshnevis](https://github.com/Naeemkh)
 + [Matthew DosSantos DiSorbo](https://www.linkedin.com/in/dossantos-disorbo)
 + [Blend3rman](https://github.com/Blend3rman)
 + [goodboychan](https://github.com/goodboychan)
