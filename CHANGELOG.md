@@ -1,6 +1,7 @@
 # TinyMLx edX (unreleased)
 
 ## Changes
+- [3-3-7], [3-3-10], [3-3-12], [3-3-14], [3-5-18], [3-7-11], [3-8-13], [3-8-16] Setup cell now upgrades protobuf to `>=6.31.1` when the runtime is older. Colab's `tensorflow_metadata` ships with protobuf gencode 6.31.1, but the default runtime is 5.29.6, which broke `import tensorflow_datasets` (`VersionError: runtime cannot be older than gencode`). The check runs the upgrade only when needed, then prompts a session restart. (Upgrading protobuf, not pinning it down, is required because Colab's `tensorflow_metadata` cannot be satisfied by any protobuf < 6.31.1.)
 - [4-2-12] Fixed OverflowError on `np.array(HEXADECIMAL_BYTES, dtype="i2")` (signed int16 can't hold values like `0x905B = 36955`; NumPy 2.x raises OverflowError where older NumPy silently wrapped). Replaced cell with `dtype=np.uint16`, explicit big-endian byte-swap, and full-range RGB565→RGB888 scaling (`* 255 // 31` / `* 255 // 63` instead of bit-shifts that only produced multiples of 8). Four students reported this issue in the course forum.
 - [3-3-4] Removed TF 2.14.0 version pinning (Colab is Py 3.12 + TF 2.20.0; TF 2.14 wheels do not exist for Py 3.12). Cell 0 now installs TF only if missing, also installs `tf_keras` and sets `TF_USE_LEGACY_KERAS=1` so the rest of the notebook uses the Keras 2 API the course code was written against.
 - [3-3-7] Same first-cell refactor as `3-3-4`, additionally ensuring `tensorflow_hub` and `tensorflow_datasets` are installed.
